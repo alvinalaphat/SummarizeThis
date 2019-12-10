@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Summarizer</title>
+  <meta name="description">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+#area
+{
+    height:600px;
+    width: 500px;
+    font-size:12pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#submit
+{
+  height:500px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.title {
+  text-align: center;
+}
+
+#body
+{
+  background-color: #00BFFF;
+}
+  </style>
+</head>
+
+<body id="body">
+
+    <form method="post" action="." name="summary">
+        <div class="title">
+          <label><h2>Text Summarizer</h2>
+            <input type="submit" id="submit" value="Summarize!">
+            <br>
+          </label>
+        <br>
+        </div>
+        <textarea type="text" id="area" placeholder="Enter your text to be summarized..." name="words"></textarea>
+    </form>
+
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
